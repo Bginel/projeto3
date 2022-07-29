@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+}
+body {
+    display: flexbox;
+    background: hsl(257, 40%, 49%);
+    background-image: url(imagens/bg-desktop.svg);
+}
+
+.container {
+    width: auto;
+    height: auto;
+}
+
+header {
+    width: 95%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+header img {
+    position: absolute;
+    width: 15%;
+    left: 45px;
+    top: 25px;
+}
+
+section {
+    width: 45%;
+}
+
+section img {
+    width: 98%;
+    height: 100%;
+    position: relative;
+    margin: 0px 10px;
+    left: 45px;
+    float: left;
+}
+
+article {
+    width: 40%;
+    margin: 25px 55px;
+    float: left;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 2em;
+    color: white;
+    padding: 8px;
+}
+
+p {
+    color: white;
+    font-size: 1em;
+    padding: 15px 0px;
+    line-height: 25px;
+}
+
+button {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1em;
+    color: hsl(257, 40%, 49%) ;
+    margin: 10px;
+    width: 35%;
+    height: 50px;
+    box-shadow: 0 0 0.3em  black;
+    border-radius: 50px;
+    border: none;
+}
+
+button:hover {
+    color: white;
+    background-color:hsl(300, 69%, 71%) ;
+}
+
+footer {
+    position: relative;
+    height: auto;
+    clear: both;
+    float: right;
+    right: 8%;
+    margin: 10px 20px;
+}
+
+footer i {
+    color: white;
+    margin-right: 15px;
+}
